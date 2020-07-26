@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+                    <value>
+                        <RG-TF_Plant_Dervish>0.4</RG-TF_Plant_Dervish>
+                        <RG-TF_Cibarius>0.2</RG-TF_Cibarius>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

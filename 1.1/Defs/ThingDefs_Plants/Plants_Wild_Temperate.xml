@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>RG-TF_Plant_Dervish</defName>
+        <label>dervish</label>
+        <description>placeworker</description>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.7</Flammability>
+            <Beauty>8</Beauty>
+            <Nutrition>0.10</Nutrition>
+        </statBases>
+        <pathCost>35</pathCost>
+        <graphicData>
+            <texPath>Things/Plant/Dervish</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.6</hideAtSnowDepth>
+        <ingestible />
+        <plant>
+            <fertilitySensitivity>0.9</fertilitySensitivity>
+            <growDays>7</growDays>
+            <maxMeshCount>9</maxMeshCount>
+            <visualSizeRange>0.6~0.80</visualSizeRange>
+            <topWindExposure>0.4</topWindExposure>
+            <wildClusterRadius>4</wildClusterRadius>
+            <wildClusterWeight>0.8</wildClusterWeight>
+            <wildOrder>1</wildOrder>
+            <purpose>Beauty</purpose>
+        </plant>
+    </ThingDef>
+
+</Defs>
