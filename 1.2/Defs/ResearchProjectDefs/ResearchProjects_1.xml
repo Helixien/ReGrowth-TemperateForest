@@ -2,9 +2,9 @@
 <Defs>
 
     <ResearchProjectDef>
-        <defName>RG-B_PotokusGrowing</defName>
-        <label>potokus</label>
-        <description>Grow delicious potokus fungus in your farms.</description>
+        <defName>RG_MushroomCultivation</defName>
+        <label>mushroom cultivation</label>
+        <description>Cultivate and grow wild mushrooms.</description>
         <baseCost>600</baseCost>
         <techLevel>Neolithic</techLevel>
         <tags>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="DeciduousTreeBase">
+        <defName>Plant_TreeCornish</defName>
+        <label>cornish tree</label>
+        <description>A large conifer-like leaf tree that came into existence due to genetic modification. It grows in a distinctive conical shape, yet has leafs.</description>
+        <graphicData>
+            <texPath>Things/Plant/TreeCornish</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.15, 0.3, 0.15)</volume>
+                <offset>(0,0,-0.38)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>3</Beauty>
+            <Nutrition>1.30</Nutrition>
+        </statBases>
+        <ingestible />
+        <plant>
+            <growDays>20</growDays>
+			<leaflessGraphicPath>Things/Plant/TreeCornish_Leafless</leaflessGraphicPath>
+            <visualSizeRange>1.1~2.8</visualSizeRange>
+            <harvestWork>950</harvestWork>
+            <harvestYield>25</harvestYield>
+			<wildClusterWeight>25</wildClusterWeight>
+        </plant>
+    </ThingDef>
+	
+    <ThingDef ParentName="DeciduousTreeBase">
+        <defName>Plant_TreeAspen</defName>
+        <label>aspen tree</label>
+        <description>A large conifer-like leaf tree that came into existence due to genetic modification. It grows in a distinctive conical shape, yet has leafs.</description>
+        <graphicData>
+            <texPath>Things/Plant/TreeCornish</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.15, 0.3, 0.15)</volume>
+                <offset>(0,0,-0.38)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>3</Beauty>
+            <Nutrition>1.30</Nutrition>
+        </statBases>
+        <ingestible />
+        <plant>
+            <growDays>20</growDays>
+			<leaflessGraphicPath>Things/Plant/TreeCornish_Leafless</leaflessGraphicPath>
+            <visualSizeRange>1.1~2.8</visualSizeRange>
+            <harvestWork>950</harvestWork>
+            <harvestYield>25</harvestYield>
+			<wildClusterWeight>25</wildClusterWeight>
+        </plant>
+    </ThingDef>
+
+</Defs>

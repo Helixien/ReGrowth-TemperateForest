@@ -6,7 +6,7 @@
         <label>cultivated cibariu</label>
         <description>A small brown and delicious mushroom growing in clusters. It grows slowly but can't blight.</description>
         <graphicData>
-            <texPath>Things/Plant/Potokus</texPath>
+            <texPath>Things/Plant/Cibarius</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <statBases>
@@ -23,6 +23,9 @@
                 <li>Ground</li>
                 <li>Hydroponic</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>RG_MushroomCultivation</li>
+            </sowResearchPrerequisites>
             <fertilityMin>0.04</fertilityMin>
             <fertilitySensitivity>0.15</fertilitySensitivity>
             <growDays>18</growDays>
