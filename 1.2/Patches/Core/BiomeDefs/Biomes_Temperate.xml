@@ -12,6 +12,7 @@
                     <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
                     <value>
                         <Plant_TreeCornish>0.5</Plant_TreeCornish>
+                        <Plant_TreeRedAspen>0.4</Plant_TreeRedAspen>
                         <RG-TF_Cibarius>0.2</RG-TF_Cibarius>
                     </value>
                 </li>

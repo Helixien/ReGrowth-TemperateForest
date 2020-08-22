@@ -29,27 +29,26 @@
     </ThingDef>
 	
     <ThingDef ParentName="DeciduousTreeBase">
-        <defName>Plant_TreeAspen</defName>
+        <defName>Plant_TreeRedAspen</defName>
         <label>aspen tree</label>
-        <description>A large conifer-like leaf tree that came into existence due to genetic modification. It grows in a distinctive conical shape, yet has leafs.</description>
+        <description>A temperate-biome tree known for its thin, white, paper-like bark and colourful leafs.</description>
         <graphicData>
-            <texPath>Things/Plant/TreeCornish</texPath>
+            <texPath>Things/Plant/TreeRedAspen</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
-                <volume>(0.15, 0.3, 0.15)</volume>
-                <offset>(0,0,-0.38)</offset>
+                <volume>(0.15, 0.3, 0.1)</volume>
+                <offset>(-0.03,0,-0.44)</offset>
             </shadowData>
         </graphicData>
         <statBases>
             <Beauty>3</Beauty>
-            <Nutrition>1.30</Nutrition>
+            <Nutrition>1.15</Nutrition>
         </statBases>
         <ingestible />
         <plant>
             <growDays>20</growDays>
-			<leaflessGraphicPath>Things/Plant/TreeCornish_Leafless</leaflessGraphicPath>
-            <visualSizeRange>1.1~2.8</visualSizeRange>
-            <harvestWork>950</harvestWork>
+			<leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+            <harvestWork>825</harvestWork>
             <harvestYield>25</harvestYield>
 			<wildClusterWeight>25</wildClusterWeight>
         </plant>
