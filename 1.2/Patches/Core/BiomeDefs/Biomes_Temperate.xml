@@ -15,6 +15,8 @@
 						<RG-T_Plant_TemperateMoss>1.0</RG-T_Plant_TemperateMoss>
 						<RG-T_Plant_MountainDandelion>0.4</RG-T_Plant_MountainDandelion>
 						<RG-T_Plant_NordicDandelion>0.2</RG-T_Plant_NordicDandelion>
+						<RG-T_Plant_Tulpis>0.5</RG-T_Plant_Tulpis>
+						<RG-T_Plant_Fern>1.0</RG-T_Plant_Fern>
                     </value>
                 </li>
             </operations>

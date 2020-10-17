@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BushBase">
+        <defName>RG-T_Plant_Fern</defName>
+        <label>fern</label>
+        <description>A short shrub. Does not typically talk.</description>
+        <graphicData>
+            <texPath>Things/Plant/Fern</texPath>
+            <drawSize>1.15</drawSize>
+            <shadowData>
+                <volume>(0.55, 0.2, 0.2)</volume>
+            </shadowData>
+        </graphicData>
+        <uiIconScale>0.85</uiIconScale>
+        <plant>
+            <growDays>3</growDays>
+            <leaflessGraphicPath>Things/Plant/Fern_Leafless</leaflessGraphicPath>
+            <harvestWork>60</harvestWork>
+            <wildClusterRadius>4</wildClusterRadius>
+            <wildClusterWeight>80</wildClusterWeight>
+        </plant>
+    </ThingDef>
+
+</Defs>
