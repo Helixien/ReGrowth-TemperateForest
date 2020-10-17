@@ -11,9 +11,8 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
                     <value>
-                        <Plant_TreeCornish>0.5</Plant_TreeCornish>
-                        <Plant_TreeRedAspen>0.4</Plant_TreeRedAspen>
-                        <RG-TF_Cibarius>0.2</RG-TF_Cibarius>
+                        <RG-T_Plant_TreeCornish>0.8</RG-T_Plant_TreeCornish>
+						<RG-T_Plant_TemperateMoss>1.0</RG-T_Plant_TemperateMoss>
                     </value>
                 </li>
             </operations>

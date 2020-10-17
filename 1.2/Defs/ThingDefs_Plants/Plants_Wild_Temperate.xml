@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThingDef ParentName="DeciduousTreeBase">
-        <defName>Plant_TreeCornish</defName>
+    <ThingDef ParentName="TreeBase">
+        <defName>RG-T_Plant_TreeCornish</defName>
         <label>cornish tree</label>
         <description>A large conifer-like leaf tree that came into existence due to genetic modification. It grows in a distinctive conical shape, yet has leafs.</description>
         <graphicData>
@@ -20,37 +20,40 @@
         <ingestible />
         <plant>
             <growDays>20</growDays>
-			<leaflessGraphicPath>Things/Plant/TreeCornish_Leafless</leaflessGraphicPath>
             <visualSizeRange>1.1~2.8</visualSizeRange>
             <harvestWork>950</harvestWork>
             <harvestYield>25</harvestYield>
-			<wildClusterWeight>25</wildClusterWeight>
+            <wildClusterWeight>25</wildClusterWeight>
         </plant>
     </ThingDef>
-	
-    <ThingDef ParentName="DeciduousTreeBase">
-        <defName>Plant_TreeRedAspen</defName>
-        <label>aspen tree</label>
-        <description>A temperate-biome tree known for its thin, white, paper-like bark and colourful leafs.</description>
-        <graphicData>
-            <texPath>Things/Plant/TreeRedAspen</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-            <shadowData>
-                <volume>(0.15, 0.3, 0.1)</volume>
-                <offset>(-0.03,0,-0.44)</offset>
-            </shadowData>
-        </graphicData>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>RG-T_Plant_TemperateMoss</defName>
+        <label>moss</label>
+        <description>Wild moss that grows in clumps in areas of low light and cool temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
         <statBases>
-            <Beauty>3</Beauty>
-            <Nutrition>1.15</Nutrition>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Flammability>0.6</Flammability>
+            <Nutrition>0.15</Nutrition>
         </statBases>
+        <graphicData>
+            <texPath>Things/Plant/TemperateMoss</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.5</hideAtSnowDepth>
         <ingestible />
         <plant>
-            <growDays>20</growDays>
-			<leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
-            <harvestWork>825</harvestWork>
-            <harvestYield>25</harvestYield>
-			<wildClusterWeight>25</wildClusterWeight>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0.2</fertilitySensitivity>
+            <growDays>15</growDays>
+            <leaflessGraphicPath>Things/Plant/TemperateMoss_Leafless</leaflessGraphicPath>
+            <harvestWork>75</harvestWork>
+            <maxMeshCount>4</maxMeshCount>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+            <visualSizeRange>0.9~1.5</visualSizeRange>
+            <topWindExposure>0.3</topWindExposure>
+            <wildOrder>1</wildOrder>
         </plant>
     </ThingDef>
 
