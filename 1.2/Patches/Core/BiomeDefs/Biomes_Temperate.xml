@@ -13,6 +13,8 @@
                     <value>
                         <RG-T_Plant_TreeCornish>0.8</RG-T_Plant_TreeCornish>
 						<RG-T_Plant_TemperateMoss>1.0</RG-T_Plant_TemperateMoss>
+						<RG-T_Plant_MountainDandelion>0.4</RG-T_Plant_MountainDandelion>
+						<RG-T_Plant_NordicDandelion>0.2</RG-T_Plant_NordicDandelion>
                     </value>
                 </li>
             </operations>
