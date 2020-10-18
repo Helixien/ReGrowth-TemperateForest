@@ -1,31 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThingDef ParentName="BushBase">
-        <defName>RG-TF_Plant_Fern</defName>
-        <label>fern</label>
-        <description>A short shrub. Does not typically talk.</description>
-        <graphicData>
-            <texPath>Things/Plant/Fern</texPath>
-            <drawSize>1.15</drawSize>
-            <shadowData>
-                <volume>(0.55, 0.2, 0.2)</volume>
-            </shadowData>
-        </graphicData>
-        <uiIconScale>0.85</uiIconScale>
-        <plant>
-            <growDays>3</growDays>
-            <leaflessGraphicPath>Things/Plant/Fern_Leafless</leaflessGraphicPath>
-            <harvestWork>60</harvestWork>
-            <wildClusterRadius>4</wildClusterRadius>
-            <wildClusterWeight>80</wildClusterWeight>
-        </plant>
-    </ThingDef>
-	
     <ThingDef ParentName="PlantBase">
-        <defName>RG-TF_Cibarius</defName>
-        <label>cibarius</label>
-        <description>Placeholder</description>
+        <defName>RG-TF_Plant_Cibarius</defName>
+        <label>cultivated cibariu</label>
+        <description>A small brown and delicious mushroom growing in clusters. It grows slowly but can't blight.</description>
         <graphicData>
             <texPath>Things/Plant/Cibarius</texPath>
             <graphicClass>Graphic_Random</graphicClass>
@@ -40,17 +19,26 @@
         <pathCost>5</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
+            <sowResearchPrerequisites>
+                <li>RG_MushroomCultivation</li>
+            </sowResearchPrerequisites>
             <fertilityMin>0.04</fertilityMin>
             <fertilitySensitivity>0.15</fertilitySensitivity>
-            <growDays>45</growDays>
+            <growDays>18</growDays>
             <maxMeshCount>4</maxMeshCount>
+            <sowMinSkill>8</sowMinSkill>
             <dieIfLeafless>true</dieIfLeafless>
-            <harvestYield>35</harvestYield>
+            <harvestYield>25</harvestYield>
             <harvestTag>Standard</harvestTag>
             <harvestedThingDef>RawFungus</harvestedThingDef>
             <neverBlightable>true</neverBlightable>
             <visualSizeRange>0.3~0.5</visualSizeRange>
             <topWindExposure>0.1</topWindExposure>
+            <wildOrder>2</wildOrder>
             <purpose>Food</purpose>
         </plant>
     </ThingDef>

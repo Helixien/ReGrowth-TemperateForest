@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="TreeBase">
-        <defName>RG-T_Plant_TreeCornish</defName>
+        <defName>RG-TF_Plant_TreeCornish</defName>
         <label>cornish tree</label>
         <description>A large conifer-like leaf tree that came into existence due to genetic modification. It grows in a distinctive conical shape, yet has leafs.</description>
         <graphicData>
@@ -28,7 +28,7 @@
     </ThingDef>
 	
   <ThingDef ParentName="PlantBase">
-    <defName>RG-T_Plant_MountainDandelion</defName>
+    <defName>RG-TF_Plant_MountainDandelion</defName>
     <label>dandelions</label>
     <description>A tiny orange flower which grows in large clusters. Though it is often considered a weed, dandelions in bloom are quite beautiful.</description>
     <statBases>
@@ -60,7 +60,7 @@
   </ThingDef>
   
   <ThingDef ParentName="PlantBase">
-    <defName>RG-T_Plant_NordicDandelion</defName>
+    <defName>RG-TF_Plant_NordicDandelion</defName>
     <label>dandelions</label>
     <description>A tiny blue flower which grows in large clusters. Though it is often considered a weed, dandelions in bloom are quite beautiful.</description>
     <statBases>
@@ -92,7 +92,7 @@
   </ThingDef>
 
     <ThingDef ParentName="PlantBase">
-        <defName>RG-T_Plant_TemperateMoss</defName>
+        <defName>RG-TF_Plant_TemperateMoss</defName>
         <label>moss</label>
         <description>Wild moss that grows in clumps in areas of low light and cool temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
         <statBases>

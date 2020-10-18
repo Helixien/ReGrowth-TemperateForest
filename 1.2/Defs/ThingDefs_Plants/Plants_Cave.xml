@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="CavePlantBase">
+        <defName>RG-TF_Alastairus</defName>
+        <label>alastairus</label>
+        <description>An strange blue mushroom. Its size and glowing protrusions make this fungus beautiful to look at. It dies when exposed to light.</description>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Beauty>8</Beauty>
+            <Nutrition>0.2</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/Alastairus</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.3, 0.13)</volume>
+                <offset>(-0.03,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <pathCost>30</pathCost>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.01</fertilityMin>
+            <fertilitySensitivity>0.10</fertilitySensitivity>
+            <growDays>25</growDays>
+            <dieIfLeafless>true</dieIfLeafless>
+            <harvestYield>15</harvestYield>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>RawFungus</harvestedThingDef>
+            <neverBlightable>true</neverBlightable>
+            <visualSizeRange>0.5~0.9</visualSizeRange>
+            <topWindExposure>0.1</topWindExposure>
+            <cavePlantWeight>0.05</cavePlantWeight>
+            <purpose>Beauty</purpose>
+        </plant>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>6</glowRadius>
+                <glowColor>(166,208,213,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
