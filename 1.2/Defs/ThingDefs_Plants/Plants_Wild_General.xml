@@ -2,9 +2,9 @@
 <Defs>
 
     <ThingDef ParentName="BushBase">
-        <defName>RG-TF_Plant_Fern</defName>
+        <defName>RG-TF_Plant_TemperateFern</defName>
         <label>fern</label>
-        <description>A short shrub. Does not typically talk.</description>
+        <description>A short shrub with long, fine leaves. Grows in forests in warmer areas.</description>
         <graphicData>
             <texPath>Things/Plant/Fern</texPath>
             <drawSize>1.15</drawSize>
@@ -24,7 +24,7 @@
 	
     <ThingDef ParentName="PlantBase">
         <defName>RG-TF_Cibarius</defName>
-        <label>cibarius</label>
+        <label>A tiny yellow and very tasty mushroom growing in small clusters. It can be found exclusively in temperate biomes.</label>
         <description>Placeholder</description>
         <graphicData>
             <texPath>Things/Plant/Cibarius</texPath>
@@ -58,7 +58,7 @@
     <ThingDef ParentName="PlantBase">
         <defName>RG-TF_Alastairus</defName>
         <label>alastairus</label>
-        <description>An strange blue mushroom. Its size and glowing protrusions make this fungus beautiful to look at.</description>
+        <description>An strange blue mushroom that glows in the dark. Its size and glowing protrusions make this fungus beautiful to look at.</description>
         <statBases>
             <MaxHitPoints>50</MaxHitPoints>
             <Beauty>8</Beauty>

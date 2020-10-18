@@ -4,7 +4,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>RG-TF_Plant_TreeCornish</defName>
         <label>cornish tree</label>
-        <description>A large conifer-like leaf tree that came into existence due to genetic modification. It grows in a distinctive conical shape, yet has leafs.</description>
+        <description>A large mediterranean conifer covered with tiny pine cones. It grows exclusively in temperate biomes.</description>
         <graphicData>
             <texPath>Things/Plant/TreeCornish</texPath>
             <graphicClass>Graphic_Random</graphicClass>
@@ -94,7 +94,7 @@
     <ThingDef ParentName="PlantBase">
         <defName>RG-TF_Plant_TemperateMoss</defName>
         <label>moss</label>
-        <description>Wild moss that grows in clumps in areas of low light and cool temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
+        <description>Wild moss with leafs that grows in clumps in areas of warm temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <Flammability>0.6</Flammability>
