@@ -8,6 +8,7 @@
         <match Class="PatchOperationSequence">
             <success>Always</success>
             <operations>
+                <!-- ================ Biome Temperate Forest ================ -->
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
                     <value>
@@ -17,6 +18,17 @@
 						<RG-TF_Plant_NordicDandelion>0.2</RG-TF_Plant_NordicDandelion>
 						<RG-TF_Cibarius>0.05</RG-TF_Cibarius>
 						<RG-TF_Plant_Fern>1.0</RG-TF_Plant_Fern>
+                    </value>
+                </li>
+
+				<!-- ================ Biome Temperate Swamp ================ -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+                    <value>
+                        <RG-TF_Plant_TreeCornish>1.0</RG-TF_Plant_TreeCornish>
+						<RG-TF_Plant_TemperateMoss>0.8</RG-TF_Plant_TemperateMoss>
+						<RG-TF_Cibarius>0.02</RG-TF_Cibarius>
+						<RG-TF_Plant_Fern>0.4</RG-TF_Plant_Fern>
                     </value>
                 </li>
             </operations>
