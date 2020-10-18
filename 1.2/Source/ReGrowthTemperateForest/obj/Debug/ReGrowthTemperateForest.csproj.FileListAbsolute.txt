@@ -1,0 +1,6 @@
+c:\GAMES\Rimworld\Mods\ReGrowth-TemperateForest\1.2\Assemblies\ReGrowthTemperateForest.dll
+c:\GAMES\Rimworld\Mods\ReGrowth-TemperateForest\1.2\Assemblies\ReGrowthTemperateForest.pdb
+c:\GAMES\Rimworld\Mods\ReGrowth-TemperateForest\1.2\Source\ReGrowthTemperateForest\obj\Debug\ReGrowthTemperateForest.csprojAssemblyReference.cache
+c:\GAMES\Rimworld\Mods\ReGrowth-TemperateForest\1.2\Source\ReGrowthTemperateForest\obj\Debug\ReGrowthTemperateForest.csproj.CoreCompileInputs.cache
+c:\GAMES\Rimworld\Mods\ReGrowth-TemperateForest\1.2\Source\ReGrowthTemperateForest\obj\Debug\ReGrowthTemperateForest.dll
+c:\GAMES\Rimworld\Mods\ReGrowth-TemperateForest\1.2\Source\ReGrowthTemperateForest\obj\Debug\ReGrowthTemperateForest.pdb
