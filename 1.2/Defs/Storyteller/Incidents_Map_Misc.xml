@@ -11,7 +11,7 @@
         <workerClass>ReGrowthTemperateForest.IncidentWorker_AlastairusSprout</workerClass>
         <baseChance>1.0</baseChance>
         <letterLabel>Alastairus sprout</letterLabel>
-        <letterText>A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit.</letterText>
+        <letterText>A grove of the strange alastairus mushroom has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious and sweet mushroom.</letterText>
         <letterDef>PositiveEvent</letterDef>
         <allowedBiomes>
             <li>TemperateForest</li>
