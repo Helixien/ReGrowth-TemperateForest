@@ -68,7 +68,7 @@ namespace ReGrowthTemperateForest
 
 		private bool CanSpawnAt(IntVec3 c, Map map)
 		{
-			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < ThingDefOf.Plant_Ambrosia.plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors 
+			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < DefDatabase<ThingDef>.GetNamed("RG-TF_Alastairus").plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors 
 				|| c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map))
 			{
 				return false;
