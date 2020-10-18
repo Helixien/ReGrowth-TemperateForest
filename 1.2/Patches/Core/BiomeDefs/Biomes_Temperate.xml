@@ -17,7 +17,7 @@
 						<RG-TF_Plant_MountainDandelion>0.4</RG-TF_Plant_MountainDandelion>
 						<RG-TF_Plant_NordicDandelion>0.2</RG-TF_Plant_NordicDandelion>
 						<RG-TF_Cibarius>0.05</RG-TF_Cibarius>
-						<RG-TF_Plant_Fern>1.0</RG-TF_Plant_Fern>
+						<RG-TF_Plant_TemperateFern>1.0</RG-TF_Plant_TemperateFern>
                     </value>
                 </li>
 
@@ -28,7 +28,7 @@
                         <RG-TF_Plant_TreeCornish>1.0</RG-TF_Plant_TreeCornish>
 						<RG-TF_Plant_TemperateMoss>0.8</RG-TF_Plant_TemperateMoss>
 						<RG-TF_Cibarius>0.02</RG-TF_Cibarius>
-						<RG-TF_Plant_Fern>0.4</RG-TF_Plant_Fern>
+						<RG-TF_Plant_TemperateFern>0.4</RG-TF_Plant_TemperateFern>
                     </value>
                 </li>
             </operations>
