@@ -12,14 +12,14 @@
         <li>
             <packageId>ReGrowth.BOTR.Core</packageId>
             <displayName>>ReGrowth - Core</displayName>
-            <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</downloadUrl>
+            <downloadUrl>https://github.com/Helixien/ReGrowth-TemperateForest</downloadUrl>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</steamWorkshopUrl>
         </li>
     </modDependencies>
 	<loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
 		<li>ReGrowth.BOTR.Core</li>
-		<li>Balthoraz.RimUniverse.BiomesModule</li>
 	</loadAfter>
+	<loadBefore>
+		<li>Balthoraz.RimUniverse.BiomesModule</li>
+	</loadBefore>
 </ModMetaData>
