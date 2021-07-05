@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[HLX] ReGrowth - Temperate Forest Expansion</name>
+	<name>ReGrowth: Temperate Forest Expansion</name>
 	<author>Helixien, Alastair, Taranchuk</author>
 	<supportedVersions>
 		<li>1.2</li>
@@ -12,7 +12,7 @@
 	<modDependencies>
         <li>
             <packageId>ReGrowth.BOTR.Core</packageId>
-            <displayName>ReGrowth - Core</displayName>
+            <displayName>ReGrowth: Core and Framework</displayName>
             <downloadUrl>https://github.com/Helixien/ReGrowth-TemperateForest</downloadUrl>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</steamWorkshopUrl>
         </li>
